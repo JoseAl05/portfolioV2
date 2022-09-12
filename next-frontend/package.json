@@ -7,7 +7,7 @@
     "build": "cd studio && npx sanity build ../public/studio -y && cd .. && next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "cd studio && npm install"
+    "postinstall": "cd studio && yarn install"
   },
   "dependencies": {
     "@portabletext/react": "^1.0.6",
