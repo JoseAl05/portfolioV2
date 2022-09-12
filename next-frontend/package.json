@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cd studio && npx sanity build ../public/studio -y && cd .. && next build",
+    "build": "cd studio && npm build ../public/studio -y && cd .. && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "cd studio && npm install"
   },
   "dependencies": {
     "@portabletext/react": "^1.0.6",
