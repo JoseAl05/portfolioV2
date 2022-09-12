@@ -15,6 +15,7 @@ next-frontend/out/
 
 # production
 next-frontend/build
+sanity-backend/public
 
 # misc
 next-frontend.DS_Store
