@@ -3,6 +3,7 @@
 # dependencies
 next-frontend/node_modules
 next-frontend/studio/node_modules
+sanity-backend/node_modules
 next-frontend/.pnp
 next-frontend.pnp.js
 
@@ -16,6 +17,7 @@ next-frontend/out/
 # production
 next-frontend/build
 next-frontend/studio/public
+sanity-backend/public
 
 # misc
 next-frontend.DS_Store
