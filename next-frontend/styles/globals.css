@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "THUNDER-LIGHT";
+  src: url("../public/fonts/Thunder-LightLC.otf");
+}
+@font-face {
+  font-family: "THUNDER-MEDIUM";
+  src: url("../public/fonts/Thunder-MediumLC.otf");
+}
+@font-face {
+  font-family: "THUNDER-BOLD";
+  src: url("../public/fonts/Thunder-BoldLC.otf");
+}
+
+@font-face {
+  font-family: "Playfair-Regular";
+  src: url("../public/fonts/PlayfairDisplayRegular-ywLOY.ttf");
+}
