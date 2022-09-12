@@ -1,12 +1,12 @@
 {
   "root": true,
-  "project": {
-    "name": "portfolio",
-    "basePath": "/studio"
-  },
   "api": {
     "projectId": "xmea2rf5",
     "dataset": "production"
+  },
+  "project": {
+    "name": "portfolio",
+    "basePath": "/studio"
   },
   "plugins": [
     "@sanity/base",

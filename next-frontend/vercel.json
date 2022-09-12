@@ -1,6 +1,6 @@
 {
     "rewrites": [{
-      "source": "/studio/(.*)",
-      "destination": "/studio/index.html"
+      "source": "/studio/public/(.*)",
+      "destination": "/studio/public/index.html"
     }]
   }

@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cd studio && npx sanity build ../public/studio -y && cd .. && next build",
     "start": "next start",
-    "studio:dev": "npm --prefix studio run start",
-    "studio:deploy": "npm --prefix studio run deploy",
     "lint": "next lint"
   },
   "dependencies": {
