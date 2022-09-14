@@ -22,7 +22,7 @@ const Nav = () => {
               </a>
             </Link>
           </div>
-          <div className="block lg:hidden pr-4">
+          <div className="block pr-4">
             <button
               className="flex items-center p-1 text-white hover:text-teal-500 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
               onClick={() => setActiveTab(!activeTab)}
