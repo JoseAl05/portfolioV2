@@ -44,10 +44,10 @@ const Profile = () => {
         </div>
         <div className="flex sm:flex-row flex-col-reverse items-center sm:justify-between my-36 mx-20">
           <div className="flex flex-col items-center w-full sm:w-1/2">
-            <h1 className="font-thunderMedium text-4xl text-black my-10 border-b-2 border-r-2 border-l-2 w-full text-center border-[#005fa7] rounded-b-lg">
+            <h1 className="font-thunderMedium text-2xl sm:text-4xl text-black my-10 border-b-2 border-r-2 border-l-2 w-full text-center border-[#005fa7] rounded-b-lg">
               Desarrollo Web.
             </h1>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Me gusta el desarrollo web, por la utilidad que le puede brindar a
               un pequeño negocio o a una empresa de mayor embergadura. Me he
               aventurado con varias herramientas de desarrollo web, desde{" "}
@@ -55,17 +55,17 @@ const Profile = () => {
               <i><b>NextJS</b></i>, que son actualmente las herramientas front-end con
               las que trabajo, me siento mas comodo y mas experiencia tengo.
             </p>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Por otro lado, en el desarrollo del back-end, he utilizado{" "}
               <i><b>Express</b></i> para la configuracion del servidor, <i><b>Pisma</b></i> y{" "}
               <i><b>Sequelize</b></i> como ORM's y <i><b>API Rest</b></i> y <i><b>GraphQL</b></i>{" "}
               para el control, llamadas y configuracion de los endpoints.
             </p>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Como bases de datos SQL, he trabajado con SQL Server, MySQL, y
               MongoDB como base de datos NoSQL.
             </p>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Como integraciones, he utilizado <i><b>AWS S3 Bucket</b></i> para el
               almacenamiento de archivos, <i><b>Auth0</b></i> para la auntenticacion de
               usuarios y <i><b>Sanity</b></i> y <i><b>DatoCMS</b></i> como CMS's
@@ -115,16 +115,16 @@ const Profile = () => {
             </motion.div>
           </div>
           <div className="flex flex-col items-center w-full sm:w-1/2">
-            <h1 className="font-thunderMedium text-4xl text-black my-10 border-t-2 border-r-2 border-l-2 w-full text-center border-[#005fa7] rounded-t-lg">
+            <h1 className="font-thunderMedium text-2xl sm:text-4xl text-black my-10 border-t-2 border-r-2 border-l-2 w-full text-center border-[#005fa7] rounded-t-lg">
               Ingenieria de Software.
             </h1>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               La Ingenieria de Software es muy importante al momento de
               desarrollar aplicaciones. Se deben aplicar metodologias, modelos
               de desarrollo, generar documentacion para generar un software,
               aplicacion o sistema confiable y de calidad.
             </p>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Para el desarrollo de proyectos, he aplicado la{" "}
               <i><b>Captura, Especificacion y Validacion de Requerimientos</b></i>,{" "}
               <i><b>Modelos de Proceso de Desarrollo</b></i>, <i><b>Documentacion</b></i>, la
@@ -140,7 +140,7 @@ const Profile = () => {
               <i><b>Definicion de Objetivos</b></i>, <i><b>Analisis de Problema</b></i>,
               <i><b>Propuestas de Solucion</b></i> y <i><b>Gestion de Riesgos</b></i>.
             </p>
-            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+            <p className="text-lg sm:text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Herramientas que he utilizado son{" "}
               <i><b>Bizagi, Jira, Word, Excel, MS Project, Cacoo, Lucidchart</b></i>.
             </p>

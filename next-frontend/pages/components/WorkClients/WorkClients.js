@@ -44,8 +44,8 @@ const WorkClients = () => {
                 role="tab"
                 className={
                   activeTabId === 1
-                    ? "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderMedium tracking-widest text-lg border-teal-500 text-teal-500 text-center whitespace-nowrap -translate-y-1 scale-110"
-                    : "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderLight tracking-wider text-lg border-gray-500 text-gray-500  text-center whitespace-nowrap hover:text-teal-500 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150"
+                    ? "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderMedium tracking-widest text-lg border-teal-500 text-teal-500 text-center whitespace-nowrap sm:scale-110"
+                    : "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderLight tracking-wider text-lg border-gray-500 text-gray-500  text-center whitespace-nowrap hover:text-teal-500  transition ease-in-out delay-150"
                 }
                 onClick={() => setActiveTabId(1)}
                 tabIndex={activeTabId === 1 ? "0" : "-1"}
@@ -59,8 +59,8 @@ const WorkClients = () => {
                 role="tab"
                 className={
                   activeTabId === 2
-                    ? "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderMedium tracking-widest text-lg border-teal-500 text-teal-500 text-center whitespace-nowrap -translate-y-1 scale-110"
-                    : "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderLight tracking-wider text-lg border-gray-500 text-gray-500  text-center whitespace-nowrap hover:text-teal-500 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150p"
+                    ? "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderMedium tracking-widest text-lg border-teal-500 text-teal-500 text-center whitespace-nowrap sm:scale-110"
+                    : "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderLight tracking-wider text-lg border-gray-500 text-gray-500  text-center whitespace-nowrap hover:text-teal-500  transition ease-in-out delay-150p"
                 }
                 onClick={() => setActiveTabId(2)}
                 tabIndex={activeTabId === 2 ? "0" : "-1"}
@@ -74,8 +74,8 @@ const WorkClients = () => {
                 role="tab"
                 className={
                   activeTabId === 3
-                    ? "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderMedium tracking-widest text-lg border-teal-500 text-teal-500 text-center whitespace-nowrap -translate-y-1 scale-110"
-                    : "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderLight tracking-wider text-lg border-gray-500 text-gray-500  text-center whitespace-nowrap hover:text-teal-500 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150p"
+                    ? "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderMedium tracking-widest text-lg border-teal-500 text-teal-500 text-center whitespace-nowrap sm:scale-110"
+                    : "flex items-center w-full h-10 px-20 pb-2 pt-0 bg-transparent border-l-2 border-solid font-thunderLight tracking-wider text-lg border-gray-500 text-gray-500  text-center whitespace-nowrap hover:text-teal-500 transition ease-in-out delay-150p"
                 }
                 onClick={() => setActiveTabId(3)}
                 tabIndex={activeTabId === 3 ? "0" : "-1"}

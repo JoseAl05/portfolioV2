@@ -39,7 +39,7 @@ const Nav = () => {
             </button>
           </div>
           {showNav && (
-            <div className="w-full flex-grow lg:flex lg:items-center sm:hidden lg:w-auto mt-2 lg:mt-0 lg:bg-transparent text-white p-4 lg:p-0 z-20">
+            <div className="w-full flex-grow lg:flex lg:items-center hidden lg:w-auto mt-2 lg:mt-0 lg:bg-transparent text-white p-4 lg:p-0 z-20">
               <ul className="list-reset flex justify-end flex-1 items-center">
                 <li className="mr-3">
                   <Link href="#sobremi" scroll={false}>
