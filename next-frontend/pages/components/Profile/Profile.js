@@ -47,30 +47,32 @@ const Profile = () => {
             <h1 className="font-thunderMedium text-4xl text-black my-10 border-b-2 border-r-2 border-l-2 w-full text-center border-[#005fa7] rounded-b-lg">
               Desarrollo Web.
             </h1>
-            <p className="text-2xl leading-8 tracking-wider font-thunderLight w-full text-center">
+            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Me gusta el desarrollo web, por la utilidad que le puede brindar a
               un pequeño negocio o a una empresa de mayor embergadura. Me he
               aventurado con varias herramientas de desarrollo web, desde{" "}
-              <i>.NET</i>, <i>Shiny</i>, <i>Angular</i>, hasta <i>React</i> y{" "}
-              <i>NextJS</i>, que son actualmente las herramientas front-end con
+              <i><b>.NET</b></i>, <i><b>Shiny</b></i>, <i><b>Angular</b></i>, hasta <i><b>React</b></i> y{" "}
+              <i><b>NextJS</b></i>, que son actualmente las herramientas front-end con
               las que trabajo, me siento mas comodo y mas experiencia tengo.
             </p>
-            <p className="text-2xl leading-8 tracking-wider font-thunderLight w-full text-center mt-2">
+            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Por otro lado, en el desarrollo del back-end, he utilizado{" "}
-              <i>Express</i> para la configuracion del servidor, <i>Pisma</i> y{" "}
-              <i>Sequelize</i> como ORM's y <i>API Rest</i> y <i>GraphQL</i>{" "}
+              <i><b>Express</b></i> para la configuracion del servidor, <i><b>Pisma</b></i> y{" "}
+              <i><b>Sequelize</b></i> como ORM's y <i><b>API Rest</b></i> y <i><b>GraphQL</b></i>{" "}
               para el control, llamadas y configuracion de los endpoints.
             </p>
-            <p className="text-2xl leading-8 tracking-wider font-thunderLight w-full text-center mt-2">
+            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Como bases de datos SQL, he trabajado con SQL Server, MySQL, y
               MongoDB como base de datos NoSQL.
             </p>
-            <p className="text-2xl leading-8 tracking-wider font-thunderLight w-full text-center mt-2">
-              Como integraciones, he utilizado <i>AWS S3 Bucket</i> para el
-              almacenamiento de archivos, <i>Auth0</i> para la auntenticacion de
-              usuarios y <i>Sanity</i> y <i>DatoCMS</i> como CMS's
+            <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
+              Como integraciones, he utilizado <i><b>AWS S3 Bucket</b></i> para el
+              almacenamiento de archivos, <i><b>Auth0</b></i> para la auntenticacion de
+              usuarios y <i><b>Sanity</b></i> y <i><b>DatoCMS</b></i> como CMS's
               <i>
-                (Content Managment System o Sistema de Gestion de Contenidos)
+                <b>
+                  (Content Managment System o Sistema de Gestion de Contenidos)
+                </b>
               </i>
             </p>
           </div>
@@ -124,21 +126,23 @@ const Profile = () => {
             </p>
             <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Para el desarrollo de proyectos, he aplicado la{" "}
-              <i>Captura, Especificacion y Validacion de Requerimientos</i>,{" "}
-              <i>Modelos de Proceso de Desarrollo</i>, <i>Documentacion</i>, la
+              <i><b>Captura, Especificacion y Validacion de Requerimientos</b></i>,{" "}
+              <i><b>Modelos de Proceso de Desarrollo</b></i>, <i><b>Documentacion</b></i>, la
               cual incluye{" "}
-              <i>Diagramas</i>,<i>Carta Gantt</i>, <i>BPMN</i>{" "}
+              <i><b>Diagramas</b></i>,<i><b>Carta Gantt</b></i>, <i><b>BPMN</b></i>{" "}
               <i>
-                (Bussiness Process Model and Notation o Modelo de Procesos de
-                Negocio)
+                <b>
+                  (Bussiness Process Model and Notation o Modelo de Procesos de
+                  Negocio)
+                </b>
               </i>
-              , <i>Casos de Uso</i>, <i>Estudio de Factibilidad</i>,{" "}
-              <i>Definicion de Objetivos</i>, <i>Analisis de Problema</i>,
-              <i>Propuestas de Solucion</i> y <i>Gestion de Riesgos</i>.
+              , <i><b>Casos de Uso</b></i>, <i><b>Estudio de Factibilidad</b></i>,{" "}
+              <i><b>Definicion de Objetivos</b></i>, <i><b>Analisis de Problema</b></i>,
+              <i><b>Propuestas de Solucion</b></i> y <i><b>Gestion de Riesgos</b></i>.
             </p>
             <p className="text-2xl font-thunderLight leading-8 tracking-wider w-full text-center">
               Herramientas que he utilizado son{" "}
-              <i>Bizagi, Jira, Word, Excel, MS Project, Cacoo, Lucidchart</i>.
+              <i><b>Bizagi, Jira, Word, Excel, MS Project, Cacoo, Lucidchart</b></i>.
             </p>
           </div>
         </div>
