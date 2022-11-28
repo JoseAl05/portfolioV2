@@ -44,7 +44,7 @@ const Nav = () => {
                 <li className="mr-3">
                   <Link href="#sobremi" scroll={false}>
                     <a className="inline-block text-white font-bold transition-all duration-300 ease-in-out hover:text-teal-300 hover:tracking-wide hover:scale-110 py-2 px-4">
-                      Sobre Mi
+                      Sobre Mí
                     </a>
                   </Link>
                 </li>
@@ -72,7 +72,7 @@ const Nav = () => {
                 <li className="mr-3">
                   <Link href="#contacto" scroll={false}>
                     <a className="inline-block text-white font-bold transition-all duration-300 ease-in-out hover:text-teal-300 hover:tracking-wide hover:scale-110 py-2 px-4">
-                      Contacto
+                      Contácto
                     </a>
                   </Link>
                 </li>
@@ -90,7 +90,7 @@ const Nav = () => {
                   <li className="mr-3">
                     <Link href="#sobremi" scroll={false}>
                       <a className="inline-block text-white font-bold transition-all duration-300 ease-in-out hover:text-teal-300 hover:tracking-wide hover:scale-110 py-2 px-4">
-                        Sobre Mi
+                        Sobre Mí
                       </a>
                     </Link>
                   </li>
@@ -118,7 +118,7 @@ const Nav = () => {
                   <li className="mr-3">
                     <Link href="#contacto" scroll={false}>
                       <a className="inline-block text-white font-bold transition-all duration-300 ease-in-out hover:text-teal-300 hover:tracking-wide hover:scale-110 py-2 px-4">
-                        Contacto
+                        Contácto
                       </a>
                     </Link>
                   </li>
