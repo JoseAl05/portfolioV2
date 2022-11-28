@@ -47,13 +47,19 @@ const Projects = ({ projects,image }) => {
                   <div
                     className="rounded overflow-hidden shadow-xl"
                   >
+                    {
+                      project.isDeployed ?
+                      <span className="bg-green-600 text-white absolute z-10 px-3 tracking-widest rounded-md">Desplegado</span>
+                      :
+                      <span className="bg-red-600 text-white absolute z-10 px-3 tracking-widest rounded-md">No Desplegado</span>
+                    }
                     <Image
                       {...getImageProps(index)}
                       layout="responsive"
                       width={1000}
                       height={1000}
                       quality={80}
-                      className="object-scale-down"
+                      className="object-scale-down z-0"
                     />
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl mb-2">
@@ -81,6 +87,14 @@ const Projects = ({ projects,image }) => {
                         <></>
                       )}
                     </div>
+                    {
+                      project.isDeployed ?
+                      <div className="p-5">
+                        <a href="#" className="bg-blue-700 p-3 text-white font-semibold rounded-lg transition-all ease-in-out tracking-wider hover:bg-blue-900">Ir al Sitio</a>
+                      </div>
+                      :
+                      <></>
+                    }
                   </div>
                 </div>
               );

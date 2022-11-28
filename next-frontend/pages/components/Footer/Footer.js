@@ -37,7 +37,7 @@ const Footer = () => {
             Me puedes encontrar en
           </h2>
           <div className="w-full mb-5">
-            <div className="h-1 mx-auto bg-white  w-96 sm:w-[35rem] opacity-25 my-0 py-0 rounded-t"></div>
+            <div className="h-1 mx-auto bg-white  w-full sm:w-[35rem] opacity-25 my-0 py-0 rounded-t"></div>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             <a href="https://twitter.com/JotaPeArancibia" className="bg-blue-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded" rel="noreferrer noopener" target="_blank">

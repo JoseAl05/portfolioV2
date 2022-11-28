@@ -114,7 +114,7 @@ const Profile = () => {
               </motion.div>
             </motion.div>
           </div>
-          <div className="flex flex-col items-center w-full sm:w-1/2">
+          <div className="flex flex-col items-end sm:items-center w-full sm:w-1/2">
             <h1 className="font-thunderMedium text-2xl sm:text-4xl text-black my-10 border-t-2 border-r-2 border-l-2 w-full text-center border-[#005fa7] rounded-t-lg">
               Ingenieria de Software.
             </h1>
