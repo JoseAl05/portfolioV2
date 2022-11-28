@@ -27,7 +27,7 @@ const Callout = () => {
                 }}
               >
                 <h1 className="my-4 text-2xl sm:text-5xl font-bold leading-tight tracking-wider text-white font-thunderBold">
-                  Ingeniero de Ejecucion en Informatica
+                  Ingeniero de Ejecución en Informática
                 </h1>
               </motion.div>
               <motion.div
@@ -48,7 +48,7 @@ const Callout = () => {
                 }}
               >
                 <p className="leading-normal text-xl sm:text-2xl my-10 sm:my-14 text-white font-thunderMedium tracking-wider">
-                  Ingenieria de Software
+                  Ingeniería de Software
                 </p>
               </motion.div>
               <motion.div

@@ -56,10 +56,10 @@ const Contact = () => {
         <Toaster />
         <div className="py-8 lg:py-40 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 ">
-            ¿Necesitas una pagina web?
+            ¿Necesitas una página web?
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-600  sm:text-xl">
-            ¿Necesitas una pagina web para tu negocio?, ¿Deseas crear un
+            ¿Necesitas una página web para tu negocio?, ¿Deseas crear un
             portfolio para exponer tus experiencias y proyectos?. Envia un
             mensaje para poder contactarme!.
           </p>
@@ -103,7 +103,7 @@ const Contact = () => {
                 htmlFor="message"
                 className="block mb-2 text-sm font-medium text-gray-900"
               >
-                Your message
+                Mensaje
               </label>
               <textarea
                 name="message"
