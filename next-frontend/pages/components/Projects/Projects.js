@@ -90,7 +90,7 @@ const Projects = ({ projects,image }) => {
                     {
                       project.isDeployed ?
                       <div className="p-5">
-                        <a href="#" className="bg-blue-700 p-3 text-white font-semibold rounded-lg transition-all ease-in-out tracking-wider hover:bg-blue-900">Ir al Sitio</a>
+                        <a href={project.siteURL} className="bg-blue-700 p-3 text-white font-semibold rounded-lg transition-all ease-in-out tracking-wider hover:bg-blue-900">Ir al Sitio</a>
                       </div>
                       :
                       <></>
